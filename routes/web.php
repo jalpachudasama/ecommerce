@@ -57,3 +57,5 @@ Route::post('/change_pass','AdminController@change_pass');
 });
 
 Route::resource('/front','FmainController');
+
+Route::resource('/test','TestController');
